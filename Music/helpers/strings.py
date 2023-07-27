@@ -62,7 +62,8 @@ class TEXTS:
     )
     SOURCE = (
         "**Source 📦:**\n\n"
-        "**Note:** \n__» Sorry Darling__❤️🎶 {0}"
+        "**Note:** \n__» You don't have access to use this.\n
+Visit @PunjabiChat_Group __❤️🎶 {0}"
     )
     STATS = (
         "**⤞ Server Stats:**\n"
