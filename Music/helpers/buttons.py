@@ -136,11 +136,11 @@ class MakeButtons:
                     self.ikb("About Song", url=f"https://t.me/{username}?start=song_{video_id}"),
                 ],
                 [
-                    self.ikb("❤️", callback_data=f"add_favorite|{video_id}"),
-                    self.ikb("🎛️", callback_data=f"controls|{video_id}|{chat_id}"),
+                    self.ikb("➕", callback_data=f"add_favorite|{video_id}"),
+                    self.ikb("📂", callback_data=f"controls|{video_id}|{chat_id}"),
                 ],
                 [
-                    self.ikb("🗑", callback_data="close"),
+                    self.ikb("🖱️JłØ₦ ₲ⱤØɄ₱🖱️", url=f"https://t.me/PunjabiChat_Group"),
                 ],
             ]
         return buttons
@@ -175,8 +175,8 @@ class MakeButtons:
                 self.ikb(text="Visit Youtube", url=url),
             ],
             [
-                self.ikb(text="Audio", callback_data=f"song_dl|adl|{key}|{rand_key}"),
-                self.ikb(text="Video", callback_data=f"song_dl|vdl|{key}|{rand_key}"),
+                self.ikb(text="Audio 🎵", callback_data=f"song_dl|adl|{key}|{rand_key}"),
+                self.ikb(text="Video 🎥", callback_data=f"song_dl|vdl|{key}|{rand_key}"),
             ],
             [
                 self.ikb(text="⪨", callback_data=f"song_dl|prev|{key}|{rand_key}"),
@@ -204,15 +204,15 @@ class MakeButtons:
     def source_markup(self):
         buttons = [
             [
-                self.ikb(text="Github ❤️", url="https://github.com/The-HellBot"),
-                self.ikb(text="Repo 📦", url="https://github.com/The-HellBot/Music"),
+                self.ikb(text="Github ❤️", url="https://telegra.ph/file/8ffa51bb47619bb2ebb97.mp4"),
+                self.ikb(text="Repo 📦", url="https://telegra.ph/file/8ffa51bb47619bb2ebb97.mp4"),
             ],
             [
-                self.ikb(text="Under HellBot Network { 🇮🇳 }", url="https://t.me/HellBot_Networks"),
+                self.ikb(text=" Owner { 🇮🇳 }", url="https://t.me/PunjabiChat_Group"),
             ],
             [
-                self.ikb(text="Support 🎙️", url="https://t.me/HellBot_Chats"),
-                self.ikb(text="Updates 📣", url="https://t.me/Its_HellBot"),
+                self.ikb(text="Support 🎙️", url="https://t.me/PunjabiChat_Group"),
+                self.ikb(text="Updates 📣", url="https://t.me/World_Mania"),
             ],
             [
                 self.ikb(text="🔙", callback_data="help|start"),
